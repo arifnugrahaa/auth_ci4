@@ -11559,6 +11559,7 @@ html {
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100034724982326"><i class="fab fa-fw fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/arf.nugr/"><i class="fa-brands fa-instagram"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/arif-nugraha/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/arifnugrahaa"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
