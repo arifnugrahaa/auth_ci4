@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>JWP_2021_ARIF NUGRAHA</title>
+        <title>Freelancer - Start Bootstrap Theme</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -20,35 +20,31 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#">MyAuth</a>
+                <a class="navbar-brand" href="#page-top">MYAUTH</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/logout">LOGOUT</a></li>
+                </ul>
             </div>
         </nav>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0 mt-5" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="<?= base_url('/img/'. user()->profile) ?>" alt="..." style="border-radius: 50%;" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0"><?= user()->name; ?></h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Perkenalkan Nama Lengkap Saya Arif Nugraha. Saya Lulusan SMK NEGERI 2 KUNINGAN dengan bidang kejuruan Rekayasa Perangkat Lunak. Setelah Kelulusan saya mengikuti pelatihan Digitalent scholarship Junior Web Developer selama 3 bulan dari bulan September - November.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Untuk saat ini saya bekerja di daerah Depok sebagai Junior Web Developer. Saya bertugas untuk mengembangkan software yang sudah ada.</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="/login">
-                    <i class="fa-solid fa-right-to-bracket"></i>
-                        Login Dulu!
-                    </a>
-                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0"><?= user()->email; ?></p>
             </div>
-        </section>
-        
+        </header>
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -70,6 +66,7 @@
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Arif Nugraha 2022</small></div>
         </div>
+        <!-- Portfolio Modals-->
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
